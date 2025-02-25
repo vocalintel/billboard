@@ -188,7 +188,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_URL = '/static/'  # URL to access static files
 
 # Where Django collects static files (used only in production)
-# STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")  # Different from STATICFILES_DIRS
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")  # Different from STATICFILES_DIRS
 
 # Directories Django looks for additional static files (used in development)
 STATICFILES_DIRS = [
